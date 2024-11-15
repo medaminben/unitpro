@@ -1,0 +1,11 @@
+#ifndef ${lib_NAME_UPPER}_IMPL_H
+#define ${lib_NAME_UPPER}_IMPL_H
+
+namespace ${lib_ROOT_NAME} {
+    namespace ${lib_NAME} {
+         unsigned int get_the_answer_impl(void);
+
+        int multiply_impl(int , int );
+    }
+}
+#endif //${lib_NAME_UPPER}_IMPL_H

@@ -1,0 +1,7 @@
+
+find_package(QT NAMES Qt6 Qt5 COMPONENTS Widgets Gui Core QUIET)
+find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Widgets Gui Core QUIET)
+
+set(CMAKE_AUTOUIC ON)
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTORCC ON)
