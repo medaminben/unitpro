@@ -8,5 +8,5 @@ if(UNIX)
 endif()
 
 # 3rd party location
-### Qt framework
-set(QT6_DIR "C:/Qt/6.7.0/mingw_64/lib/cmake")
+### Qt framework 
+#set(QT6_DIR "C:/Qt/6.7.0/mingw_64/lib/cmake")
